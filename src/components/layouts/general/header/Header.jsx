@@ -82,10 +82,6 @@ class Header extends Component {
                             }}
                           >
                             {data.name}{" "}
-                            <i
-                              className="fa fa-angle-down"
-                              aria-hidden="true"
-                            ></i>
                           </Link>
                           {data.namesub === undefined ? (
                             ""

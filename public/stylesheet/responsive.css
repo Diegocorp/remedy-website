@@ -510,12 +510,6 @@
     float: none;
   }
 
-  .footer-bottom .menu-footer li:last-child {
-    display: block;
-    text-align: center;
-    margin-left: 0;
-  }
-
   .testimonial-slider.style-2 .testimonial-image {
     max-width: 100%;
     margin: 0 0 0;

@@ -1179,23 +1179,26 @@ article.post .content-post .more-link a:hover {
   color: #ffffff;
 }
 
-.footer-bottom .copyright a,
-.footer-bottom .menu-footer li a {
-  color: #e5e5e5;
-}
-
-.footer-bottom .copyright a:hover,
-.footer-bottom .menu-footer li a:hover {
-  color: #1498d5;
-}
-
 .footer-bottom .menu-footer {
+  color: #ffffff;
   float: right;
 }
 
-.footer-bottom .menu-footer li {
-  display: inline-block;
-  margin-left: 28px;
+.footer-bottom .menu-footer a {
+  color: #ffffff;
+  padding-right: 15px;
+}
+
+.footer-bottom .menu-footer a:hover,
+a:focus {
+  color: #1498d5;
+  text-decoration: none;
+  outline: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* BLog

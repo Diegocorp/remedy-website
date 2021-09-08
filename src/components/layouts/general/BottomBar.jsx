@@ -9,49 +9,28 @@ class BottomBar extends Component {
             <div className="col-md-12">
               <div className="copyright">
                 <p>
-                  Privacy Policy | © 2020 Remedy Insurance. All Rights Reserved
+                  Privacy Policy | © 2021 Remedy Insurance. All Rights Reserved
                 </p>
               </div>
-              <ul className="menu-footer">
-                <li>
-                  <Link
-                    to="/"
-                    onClick={() => {
-                      window.location.href = "/";
-                    }}
-                    title=""
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/blog"
-                    onClick={() => {
-                      window.location.href = "/blog";
-                    }}
-                    title=""
-                  >
-                    My Blog
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/"
-                    onClick={() => {
-                      window.location.href = "/";
-                    }}
-                    title=""
-                  >
-                    My Home
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" title="">
-                    Sample Page
-                  </Link>
-                </li>
-              </ul>
+              <div className="menu-footer">
+                Developed by{" "}
+                <a href="https://diegocorp.github.io/" target="_blank">
+                  Diego Sandoval
+                </a>
+                <a
+                  href="https://github.com/Diegocorp?tab=overview&from=2021-05-01&to=2021-05-12"
+                  target="_blank"
+                >
+                  <i className="fa fa-github" aria-hidden="true"></i>
+                </a>
+                &nbsp;
+                <a
+                  href="https://www.linkedin.com/in/diego-sandoval-83856a212/"
+                  target="_blank"
+                >
+                  <i className="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </div>
               {/* <!-- /.menu-footer --> */}
             </div>
           </div>
